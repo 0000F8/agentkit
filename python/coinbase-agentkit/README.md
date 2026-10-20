@@ -488,6 +488,40 @@ This section provides a detailed list of all available action providers and thei
 </details>
 
 <details>
+<summary><strong>Salt</strong></summary>
+<table width="100%">
+<tr>
+    <td width="200"><code>salt_send_message</code></td>
+    <td width="768">Sends an end-to-end encrypted message to a person or chat on Salt.</td>
+</tr>
+<tr>
+    <td width="200"><code>salt_ask_human</code></td>
+    <td width="768">Asks a specific person on Salt a question and returns their answer, or a resume token if they have not answered yet.</td>
+</tr>
+<tr>
+    <td width="200"><code>salt_get_answer</code></td>
+    <td width="768">Checks again for the answer to an earlier salt_ask_human question.</td>
+</tr>
+<tr>
+    <td width="200"><code>salt_request_payment</code></td>
+    <td width="768">Requests a payment from someone on Salt.</td>
+</tr>
+<tr>
+    <td width="200"><code>salt_send_invoice</code></td>
+    <td width="768">Sends an itemized invoice to someone on Salt.</td>
+</tr>
+<tr>
+    <td width="200"><code>salt_get_payment_status</code></td>
+    <td width="768">Checks the status of a Salt payment request.</td>
+</tr>
+<tr>
+    <td width="200"><code>salt_pay_request</code></td>
+    <td width="768">Pays an incoming Salt payment request from the agent's own wallet.</td>
+</tr>
+</table>
+</details>
+
+<details>
 <summary><strong>SSH</strong></summary>
 <table width="100%">
 <tr>

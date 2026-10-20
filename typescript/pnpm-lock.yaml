@@ -149,6 +149,9 @@ importers:
       md5:
         specifier: ^2.3.0
         version: 2.3.0
+      openpgp:
+        specifier: ^5.11.0
+        version: 5.11.3
       opensea-js:
         specifier: ^7.1.18
         version: 7.1.18(bufferutil@4.0.9)(utf-8-validate@5.0.10)
@@ -6661,6 +6664,11 @@ packages:
   opener@1.5.2:
     resolution: {integrity: sha512-ur5UIdyw5Y7yEj9wLzhqXiy6GZ3Mwx0yGI+5sMn2r0N0v3cKJvUmFH5yPP+WXh9e0xfyzyJX95D8l088DNFj7A==}
     hasBin: true
+
+  openpgp@5.11.3:
+    resolution: {integrity: sha512-jXOPfIteBUQ2zSmRG4+Y6PNntIIDEAvoM/lOYCnvpXAByJEruzrHQZWE/0CGOKHbubwUuty2HoPHsqBzyKHOpA==}
+    engines: {node: '>= 8.0.0'}
+    deprecated: This version is deprecated and will no longer receive security patches. Please refer to https://github.com/openpgpjs/openpgpjs/wiki/Updating-from-previous-versions for details on how to upgrade to a newer supported version.
 
   opensea-js@7.1.18:
     resolution: {integrity: sha512-cFSwroGwRkb8/FHsNjIwL2qvdve39CKMU6IUKmx+zDfsgVwKQ+7SHEj5YfKEspji5kUPpnfBlNLCAIbRS+pssA==}
@@ -18324,6 +18332,10 @@ snapshots:
       zod: 4.3.6
 
   opener@1.5.2: {}
+
+  openpgp@5.11.3:
+    dependencies:
+      asn1.js: 5.4.1
 
   opensea-js@7.1.18(bufferutil@4.0.9)(utf-8-validate@5.0.10):
     dependencies:
